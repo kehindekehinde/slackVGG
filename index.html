@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>VGG Form Registration</title>
+    <link rel="stylesheet" href="regvgg.css">
+</head>
+
+<body>
+    <h1> VENTURE GARDEN GROUP</h1>
+    <div class="container">
+        <div><button class="log" id="flrt">LOG IN</button>
+            <h3>Registration Form</h3>
+        </div>
+        <form action=""  method="" id ="form">
+            <div class="fg">
+                <label for="first_name">Full Name</label>
+                <input id = "first_name" class="sty" type="text" placeholder="Surname" >
+            </div>
+            <div class="fg">
+                <label for="">Email</label>
+                <input id = "email" class="sty" type="email" placeholder="Email" >
+                <small>we'll never share your email with anyone else</small>
+            </div>
+            <div class="fg">
+                <label for="psd1">Password</label>
+                <input id = "psd1" class="sty"  type="password"  placeholder=" Password">
+            </div>
+            <div class="fg">
+                <label for="psd1">Confirm Password</label>
+                <input id = "psd2" class="sty" type="password" placeholder="confirm Password">
+            </div>
+            <div class="fg">
+                <label for="stack">Select your Stack</label>
+                <select class="sty" id="stack" placeholder="input">
+                    <option value="front-end">FRONTEND DEVELOPMENT</option >
+                    <option value="back_end">BACKEND DEVELOPMENT</option>
+                    <option value="UI/UX">UI/UX</option>
+                    <option value="Devs">DEVLOPS</option>
+                    <option value="S_Q_A">SOFTWARE QUALITY ASSURANCE</option>
+                </select>
+            </div>
+            <div class="fg">
+                <input type="checkbox" value="Agree to terms and conditions"  checked  id="agree" name="coding">Agree to <a href="#">Terms</a> and
+                <a href="#">Conditions</a>
+            </div>
+            <div class="fg ">
+                <button class="regist" >REGISTER</button>
+            </div>
+        </form>
+       
+    </div>
+    
+    <script src = "index.js"></script>
+</body>
+
+</html>
